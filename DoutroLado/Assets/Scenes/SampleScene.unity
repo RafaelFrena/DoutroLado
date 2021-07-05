@@ -350,7 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   corpo: {fileID: 0}
   animator: {fileID: 132418005}
-  velocidade: 7
+  velocidade: 6
   forcapulo: 8
   detectorChao: {fileID: 2080937229}
   chao:

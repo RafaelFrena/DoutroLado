@@ -19,6 +19,7 @@ public class Movimentação : MonoBehaviour{
     public Transform detectorChao;
     public LayerMask chao;
     private bool noChao;
+    private bool direita = true;
 
     // Start is called before the first frame update
     void Start(){
@@ -42,5 +43,22 @@ public class Movimentação : MonoBehaviour{
         animator.SetBool("Pulando", true); //animar ariel-pula
       }
 
+    }
+
+    private void LateUpdate(){
+      viraJogador();
+    }
+
+    void viraJogador(){
+      if(sentido > 0){
+        direita = true;
+      }else if(sentido < 0){
+        direita = false;
+      }
+      Vector2 escala = transform.localScale;
+      if((escala.x > 0 && !direita) || (escala.x < 0 && direita)){
+        escala.x = escala.x * -1;
+        transform.localScale = escala;
+      }
     }
 }
