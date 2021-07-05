@@ -34,6 +34,7 @@ public class Movimentação : MonoBehaviour{
       //ANDAR PARA OS LADOS
       sentido = Input.GetAxis("Horizontal");
       noChao = Physics2D.Linecast(transform.position, detectorChao.position, chao);
+      animator.SetBool("noChao", noChao);
       corpo.velocity = new Vector2(sentido*velocidade, corpo.velocity.y);
       animator.SetFloat("Velocidade", Mathf.Abs(sentido)); //animar ariel-anda
       
@@ -41,6 +42,10 @@ public class Movimentação : MonoBehaviour{
       if(Input.GetKeyDown(KeyCode.Space) && noChao){
         corpo.velocity = Vector2.up*forcapulo;
         animator.SetBool("Pulando", true); //animar ariel-pula
+      }
+
+      if(noChao && animator.GetBool("Pulando")){
+        animator.SetBool("Pulando", false);
       }
 
     }
