@@ -38,14 +38,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Fundo
+  - name: Background
     uniqueID: 238223359
     locked: 0
-  - name: Meio
+  - name: Plataforma
     uniqueID: 3612063059
     locked: 0
-  - name: Frente
-    uniqueID: 2668798771
+  - name: "Cen\xE1rio-fundo"
+    uniqueID: 4067024771
+    locked: 0
+  - name: Personagens
+    uniqueID: 4023145301
+    locked: 0
+  - name: "Cen\xE1rio-frente"
+    uniqueID: 1122324073
     locked: 0
   - name: Default
     uniqueID: 0

@@ -19,6 +19,6 @@ public class CameraScript : MonoBehaviour
     void LateUpdate(){
       float x = Mathf.Clamp(jogador.transform.position.x, xMinimo, xMaximo);
       float y = Mathf.Clamp(jogador.transform.position.y, yMinimo, yMaximo);
-      gameObject.transform.position = new Vector3(x, y, GameObject.transform.position.z);
+      gameObject.transform.position = new Vector3(x, y, gameObject.transform.position.z);
     }
 }
