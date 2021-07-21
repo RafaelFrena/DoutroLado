@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 1f5fca2aac08a2d4ba195a3a153815eb
+guid: b6c03ec43d09ca049ad64a00f71d9446
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7319761519837464447
-    second: rumpitur-idle_0
+      213: -1290555022153552792
+    second: rumpitur parado (2)_0
   - first:
-      213: -8788376295066127618
-    second: rumpitur-idle_1
+      213: 6361563215414654039
+    second: rumpitur parado (2)_1
+  - first:
+      213: 5815916108297054599
+    second: rumpitur parado (2)_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rumpitur-idle_0
+      name: rumpitur parado (2)_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 6
-        width: 29
-        height: 58
+        x: 46
+        y: 160
+        width: 66
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -123,20 +126,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188b381fdabfa6a90800000000000000
-      internalID: -7319761519837464447
+      spriteID: 86ce0758b07071ee0800000000000000
+      internalID: -1290555022153552792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rumpitur-idle_1
+      name: rumpitur parado (2)_1
       rect:
         serializedVersion: 2
-        x: 129
-        y: 9
-        width: 32
-        height: 53
+        x: 182
+        y: 162
+        width: 72
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,8 +147,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef2be1c825a690680800000000000000
-      internalID: -8788376295066127618
+      spriteID: 7547bf61a00d84850800000000000000
+      internalID: 6361563215414654039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumpitur parado (2)_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 28
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789a48ee2e846b050800000000000000
+      internalID: 5815916108297054599
       vertices: []
       indices: 
       edges: []

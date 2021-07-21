@@ -362,7 +362,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132418000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.2, y: 0, z: 0}
+  m_LocalPosition: {x: 33.26, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2080937229}
@@ -5144,8 +5144,8 @@ GameObject:
   - component: {fileID: 1390244531}
   - component: {fileID: 1390244533}
   - component: {fileID: 1390244532}
-  - component: {fileID: 1390244535}
   - component: {fileID: 1390244534}
+  - component: {fileID: 1390244535}
   m_Layer: 0
   m_Name: Rumpitur
   m_TagString: Untagged
@@ -5162,7 +5162,7 @@ Transform:
   m_GameObject: {fileID: 1390244530}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.6899986, y: -1.28, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0}
   m_Children: []
   m_Father: {fileID: 1631581798}
   m_RootOrder: 1
@@ -5207,12 +5207,12 @@ SpriteRenderer:
   m_SortingLayerID: -271821995
   m_SortingLayer: -2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7319761519837464447, guid: 1f5fca2aac08a2d4ba195a3a153815eb, type: 3}
+  m_Sprite: {fileID: -1290555022153552792, guid: b6c03ec43d09ca049ad64a00f71d9446, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.90625, y: 1.8125}
+  m_Size: {x: 2.0625, y: 3.4375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5271,8 +5271,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.16918564, y: 0.19837278}
-  m_Size: {x: 0.5027237, y: 1.2692593}
+  m_Offset: {x: -0.51, y: 0.17}
+  m_Size: {x: 0.96, y: 2.8}
   m_Direction: 0
 --- !u!1001 &1410268552
 PrefabInstance:
