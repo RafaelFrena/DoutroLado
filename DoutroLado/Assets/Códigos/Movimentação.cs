@@ -12,8 +12,8 @@ public class Movimentação : MonoBehaviour{
     private float sentido;
 
     //pular
-    public float forcapulo;
-
+    public float forcapulo = 6f;
+    public float fastfall = 3f;
     //detector do chao
     public Transform detectorChao;
     public LayerMask chao;
@@ -38,9 +38,12 @@ public class Movimentação : MonoBehaviour{
       animator.SetFloat("Velocidade", Mathf.Abs(sentido)); //animar ariel-anda
 
       //PULAR
-      if(Input.GetKeyDown(KeyCode.Space) && noChao){
+      if(Input.GetKeyDown(KeyCode.UpArrow) && noChao){
         corpo.velocity = Vector2.up*forcapulo;
         animator.SetBool("Pulando", true); //animar ariel-pula
+      } else if(Input.GetKeyDown(KeyCode.DownArrow) && noChao==false){
+        corpo.velocity = Vector2.down*fastfall;
+        animator.SetBool("Pulando", false); //fastfall
       }
 
       if(noChao && animator.GetBool("Pulando")){

@@ -6,22 +6,27 @@ public class Ataque : MonoBehaviour{
 
   public Transform posicaoDoTiro;
   public GameObject projetilPrefab;
+  public Animator animator;
+  public bool atacando=false;
 
   void update(){
 
-    if(Input.GetButtonDown("Fire1")){
-      //Atira();
-      Instantiate(projetilPrefab, posicaoDoTiro.position, posicaoDoTiro.rotation);
+    if(Input.GetKey(KeyCode.Mouse0)){
+      Atira();
+      atacando=true;
     }
 
+    if(atacando){
+      animator.SetTrigger("Atacando");
+    } else{
+      animator.ResetTrigger("Atacando");
+    }
   }
 
-  /*
   void Atira(){
 
-    Instantiate(projetil, posicaoDoTiro.position, posicaoDoTiro.rotation);
+    Instantiate(projetilPrefab, posicaoDoTiro.position, posicaoDoTiro.rotation);
 
   }
-  */
 
 }
