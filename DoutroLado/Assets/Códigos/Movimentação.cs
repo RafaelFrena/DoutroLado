@@ -10,8 +10,7 @@ public class Movimentação : MonoBehaviour{
     //andar
     public int velocidade;
     private float sentido;
-    private float direção;
-    
+
     //pular
     public float forcapulo;
 
@@ -37,7 +36,7 @@ public class Movimentação : MonoBehaviour{
       animator.SetBool("noChao", noChao);
       corpo.velocity = new Vector2(sentido*velocidade, corpo.velocity.y);
       animator.SetFloat("Velocidade", Mathf.Abs(sentido)); //animar ariel-anda
-      
+
       //PULAR
       if(Input.GetKeyDown(KeyCode.Space) && noChao){
         corpo.velocity = Vector2.up*forcapulo;
@@ -60,10 +59,12 @@ public class Movimentação : MonoBehaviour{
       }else if(sentido < 0){
         direita = false;
       }
+
       Vector2 escala = transform.localScale;
       if((escala.x > 0 && !direita) || (escala.x < 0 && direita)){
         escala.x = escala.x * -1;
         transform.localScale = escala;
       }
+
     }
 }
