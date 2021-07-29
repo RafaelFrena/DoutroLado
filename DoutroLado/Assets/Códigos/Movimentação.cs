@@ -34,14 +34,15 @@ public class Movimentação : MonoBehaviour{
       sentido = Input.GetAxis("Horizontal");
       noChao = Physics2D.Linecast(transform.position, detectorChao.position, chao);
       animator.SetBool("noChao", noChao);
+
       corpo.velocity = new Vector2(sentido*velocidade, corpo.velocity.y);
       animator.SetFloat("Velocidade", Mathf.Abs(sentido)); //animar ariel-anda
 
       //PULAR
-      if(Input.GetKeyDown(KeyCode.UpArrow) && noChao){
+      if(Input.GetButtonDown("Jump") && noChao){
         corpo.velocity = Vector2.up*forcapulo;
         animator.SetBool("Pulando", true); //animar ariel-pula
-      } else if(Input.GetKeyDown(KeyCode.DownArrow) && noChao==false){
+      } else if(Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S) && noChao==false){
         corpo.velocity = Vector2.down*fastfall;
         animator.SetBool("Pulando", false); //fastfall
       }
@@ -53,21 +54,21 @@ public class Movimentação : MonoBehaviour{
     }
 
     private void LateUpdate(){
-      viraJogador();
-    }
-
-    void viraJogador(){
+      //resolver bug da ariel de um jeito que a bala vá pra esquerda também
       if(sentido > 0){
-        direita = true;
+        return;
       }else if(sentido < 0){
-        direita = false;
+        transform.Rotate(0f, 180f, 0f);
       }
 
+      /*
       Vector2 escala = transform.localScale;
       if((escala.x > 0 && !direita) || (escala.x < 0 && direita)){
         escala.x = escala.x * -1;
         transform.localScale = escala;
       }
+      */
 
     }
+
 }

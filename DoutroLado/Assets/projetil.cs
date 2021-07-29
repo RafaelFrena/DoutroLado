@@ -15,7 +15,13 @@ public class projetil : MonoBehaviour{
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo){
-        Destroy(gameObject);
+
+      if(hitInfo.gameObject.tag.Equals("Inimigo")){
+          Destroy(gameObject);
+      }else{
+        return;
+      }
+
     }
 
 }

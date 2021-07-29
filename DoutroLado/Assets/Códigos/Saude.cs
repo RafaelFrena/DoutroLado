@@ -10,10 +10,11 @@ public class Saude : MonoBehaviour
     private Animator animator;
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start(){
+
         morto = false;
         animator = gameObject.GetComponent<Animator>();
+        
     }
 
     public void dano(int x)
