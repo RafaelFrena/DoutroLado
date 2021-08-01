@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 7313899155069920898}
   - component: {fileID: 7313899155069920899}
   - component: {fileID: 7313899155069920909}
+  - component: {fileID: 2621651411449068985}
   m_Layer: 0
   m_Name: Rumpitur
   m_TagString: Inimigo
@@ -189,3 +190,16 @@ MonoBehaviour:
   velocidade: 2
   distancialimite: 1.5
   andando: 0
+--- !u!114 &2621651411449068985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7313899155069920903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 539102efafbf8cf48b19652aa53aff07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 5

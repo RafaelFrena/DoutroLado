@@ -18,7 +18,7 @@ public class Movimentação : MonoBehaviour{
     public Transform detectorChao;
     public LayerMask chao;
     private bool noChao;
-    private bool direita = true;
+    private bool olhandoDireita = true;
 
     // Start is called before the first frame update
     void Start(){
@@ -54,20 +54,14 @@ public class Movimentação : MonoBehaviour{
     }
 
     private void LateUpdate(){
-      //resolver bug da ariel de um jeito que a bala vá pra esquerda também
-      if(sentido > 0){
-        return;
-      }else if(sentido < 0){
+
+      if(sentido > 0 && !olhandoDireita){
+        olhandoDireita = !olhandoDireita;
+        transform.Rotate(0f, 180f, 0f);
+      }else if(sentido < 0 && olhandoDireita){
+        olhandoDireita = !olhandoDireita;
         transform.Rotate(0f, 180f, 0f);
       }
-
-      /*
-      Vector2 escala = transform.localScale;
-      if((escala.x > 0 && !direita) || (escala.x < 0 && direita)){
-        escala.x = escala.x * -1;
-        transform.localScale = escala;
-      }
-      */
 
     }
 

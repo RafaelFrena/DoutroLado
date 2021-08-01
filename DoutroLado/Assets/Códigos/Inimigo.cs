@@ -6,21 +6,16 @@ using UnityEngine;
 public class Inimigo : MonoBehaviour{
 
   [SerializeField]
-  private int vida = 3;
+  private int vida = 2;
 
-  public void TomaDano(int dano)
-  {
+  public void TomaDano(int dano){
 
-        vida -= dano;
-    if(vida <= 0)
-    {
-    Morre();
+    vida -= dano;
+
+    if(vida <= 0){
+      Destroy(gameObject);
     }
 
   }
 
-  private void Morre()
-  {
-      Destroy(gameObject);
-  }
 }
