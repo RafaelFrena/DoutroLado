@@ -17,23 +17,11 @@ public class SeguirPlayer : MonoBehaviour{
 
   void Update(){
 
-    //こみおくでくえんたぇんど
     if(Vector2.Distance(transform.position, alvo.position) > distancialimite){
       transform.position = Vector2.MoveTowards(transform.position, alvo.position, velocidade*Time.deltaTime);
       animator.SetBool("Andando", true);
     }
 
-    /*
-    if(Input.GetButtonDown("Fire1")){
-      Atira();
-      atacando=true;
-    }
-
-    if(atacando){
-      animator.SetTrigger("Atacando");
-      atacando = false;
-    }
-    */
 
     virarSprite();
 

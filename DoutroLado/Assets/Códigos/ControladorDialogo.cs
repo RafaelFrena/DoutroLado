@@ -28,15 +28,6 @@ public class ControladorDialogo : MonoBehaviour{
       MostrarProximaFala();
     }
 
-    IEnumerator EscreverFala(string fala){
-      dialogoText.text = "";
-      foreach (char letra in fala.ToCharArray()){
-        dialogoText.text += letra;
-        yield return null;
-      }
-
-    }
-
     public void MostrarProximaFala(){
       if(falas.Count == 0){
         TerminarDialogo();
@@ -46,6 +37,15 @@ public class ControladorDialogo : MonoBehaviour{
       string fala = falas.Dequeue();
       StopAllCoroutines();
       StartCoroutine(EscreverFala(fala));
+    }
+
+    IEnumerator EscreverFala(string fala){
+      dialogoText.text = "";
+      foreach (char letra in fala.ToCharArray()){
+        dialogoText.text += letra;
+        yield return null;
+      }
+
     }
 
     void TerminarDialogo(){
