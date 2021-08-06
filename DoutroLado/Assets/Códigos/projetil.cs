@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class projetil : MonoBehaviour{
+public class Projetil : MonoBehaviour{
 
     public float velocidade = 20f;
     public int dano=1;
@@ -19,13 +19,20 @@ public class projetil : MonoBehaviour{
 
       if(hitInfo.gameObject.tag.Equals("Inimigo")){
         //Debug.Log(hitInfo.transform.name);
-        //Destroy(gameObject);
         Inimigo inimigo = hitInfo.GetComponent<Inimigo>();
         if(inimigo != null){
           inimigo.TomaDano(dano);
         }
 
       }
+      /*
+      else if(hitInfo.gameObject.tag.Equals("Player")){
+        Player player = hitInfo.GetComponent<Player>();
+        if(player != null){
+          player.TomaDano(dano);
+        }
+      }
+      */
 
     }
 

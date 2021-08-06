@@ -80,6 +80,7 @@ public class Saude : MonoBehaviour{
 
     IEnumerator morre(){
 
+
         yield return new WaitForSeconds(1f);
         //depois mudar isso pra ir pra telinha de gameover ou algo do tipo
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

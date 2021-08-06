@@ -15,7 +15,7 @@ public class Ataque : MonoBehaviour{
     animator = gameObject.GetComponent<Animator>();
   }
 
-  void OnTriggerEnter2D(Collider2D collision){
+  /*void OnTriggerEnter2D(Collider2D collision){
 
     if(collision.gameObject.tag.Equals("Player")){
         return;
@@ -29,8 +29,7 @@ public class Ataque : MonoBehaviour{
 
     //Destroy(gameObject);
 
-  }
-
+  }*/
 
   void Update(){
 
