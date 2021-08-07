@@ -7,48 +7,49 @@ public class Movimentação : MonoBehaviour{
     public Rigidbody2D corpo;
     public Animator animator;
 
-    //andar
     public int velocidade;
+    public float forcapulo = 6f, fastfall = 3f;
     private float sentido;
 
-    //pular
-    public float forcapulo = 6f;
-    public float fastfall = 3f;
-    //detector do chao
     public Transform detectorChao;
     public LayerMask chao;
-    private bool noChao;
-    private bool olhandoDireita = true;
+
+    private bool noChao, olhandoDireita;
+    public bool podeSeMover;
 
     // Start is called before the first frame update
     void Start(){
 
       corpo = GetComponent<Rigidbody2D>();
+      olhandoDireita = true;
+      podeSeMover = true;
 
     }
 
     // Update is called once per frame
     void Update(){
 
-      //ANDAR PARA OS LADOS
-      sentido = Input.GetAxis("Horizontal");
-      noChao = Physics2D.Linecast(transform.position, detectorChao.position, chao);
-      animator.SetBool("noChao", noChao);
+      if(podeSeMover==true){
+        //MOVIMENTAÇÃO HORIZONTAL
+        sentido = Input.GetAxis("Horizontal");
+        noChao = Physics2D.Linecast(transform.position, detectorChao.position, chao);
+        animator.SetBool("noChao", noChao);
 
-      corpo.velocity = new Vector2(sentido*velocidade, corpo.velocity.y);
-      animator.SetFloat("Velocidade", Mathf.Abs(sentido)); //animar ariel-anda
+        corpo.velocity = new Vector2(sentido*velocidade, corpo.velocity.y);
+        animator.SetFloat("Velocidade", Mathf.Abs(sentido)); //animar ariel-anda
 
-      //PULAR
-      if(Input.GetButtonDown("Jump") && noChao){
-        corpo.velocity = Vector2.up*forcapulo;
-        animator.SetBool("Pulando", true); //animar ariel-pula
-      } else if(Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S) && noChao==false){
-        corpo.velocity = Vector2.down*fastfall;
-        animator.SetBool("Pulando", false); //fastfall
-      }
+        //MOVIMENTAÇÃO
+        if(Input.GetButtonDown("Jump") && noChao){
+          corpo.velocity = Vector2.up*forcapulo;
+          animator.SetBool("Pulando", true); //animar ariel-pula
+        } else if(Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S) && noChao==false){
+          corpo.velocity = Vector2.down*fastfall;
+          animator.SetBool("Pulando", false); //fastfall
+        }
 
-      if(noChao && animator.GetBool("Pulando")){
-        animator.SetBool("Pulando", false);
+        if(noChao && animator.GetBool("Pulando")){
+          animator.SetBool("Pulando", false);
+        }
       }
 
     }

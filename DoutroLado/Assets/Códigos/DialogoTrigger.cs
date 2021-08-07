@@ -8,11 +8,13 @@ public class DialogoTrigger : MonoBehaviour{
 
   void OnTriggerStay2D(Collider2D outroObjeto){
     if(outroObjeto.gameObject.tag.Equals("Player")){
-      //congelar movimentação do player
       if(Input.GetKeyDown(KeyCode.X)){
+        Movimentação movimentação = outroObjeto.GetComponent<Movimentação>();
+        movimentação.podeSeMover = false;
+
         ComecarDialogo();
+
       }
-      //quando dialogo terminar, devolver movimentação
     }
   }
 

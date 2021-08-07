@@ -15,6 +15,16 @@ public class ControladorDialogo : MonoBehaviour{
       falas = new Queue<string>();
     }
 
+    void Update(){
+
+      if(Input.GetKeyDown(KeyCode.X)){
+
+        MostrarProximaFala();
+
+      }
+
+    }
+
     public void IniciarDialogo(Dialogo dialogo){
 
       animator.SetBool("estaAberto", true);
@@ -26,6 +36,7 @@ public class ControladorDialogo : MonoBehaviour{
       }
 
       MostrarProximaFala();
+
     }
 
     public void MostrarProximaFala(){
@@ -48,7 +59,7 @@ public class ControladorDialogo : MonoBehaviour{
 
     }
 
-    void TerminarDialogo(){
+    public void TerminarDialogo(){
       animator.SetBool("estaAberto", false);
     }
 
