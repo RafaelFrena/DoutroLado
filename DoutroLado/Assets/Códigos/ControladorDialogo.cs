@@ -61,6 +61,9 @@ public class ControladorDialogo : MonoBehaviour{
 
     public void TerminarDialogo(){
       animator.SetBool("estaAberto", false);
+
+      Movimentação movimentação = GameObject.FindGameObjectWithTag("Player").GetComponent<Movimentação>();
+      movimentação.podeSeMover = true;
     }
 
 }
