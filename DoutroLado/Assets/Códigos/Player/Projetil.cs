@@ -15,13 +15,13 @@ public class Projetil : MonoBehaviour{
 
     }
 
-    void OnTriggerEnter2D(Collider2D hitInfo){
+    void OnTriggerEnter2D(Collider2D outroObjeto){
 
-      if(hitInfo.gameObject.tag.Equals("Inimigo")){
+      if(outroObjeto.gameObject.tag.Equals("Inimigo")){
         //Debug.Log(hitInfo.transform.name);
-        Inimigo inimigo = hitInfo.GetComponent<Inimigo>();
+        Inimigo inimigo = outroObjeto.GetComponent<Inimigo>();
         if(inimigo != null){
-          inimigo.TomaDano(dano);
+          inimigo.tomaDano(dano);
         }
 
       }

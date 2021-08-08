@@ -48,19 +48,18 @@ public class Saude : MonoBehaviour{
 
     }
 
-    public void tirarDano(int x){
+    public void tomaDano(int dano){
 
-        vida -= x;
+        vida -= dano;
         if (vida <= 0){
             morto = true;
             animator.SetTrigger("Morte");
 
-            if (gameObject.tag == "Player"){
+            //if (gameObject.tag == "Player"){
                 StartCoroutine(morre());
-            }else{
-              Destroy(gameObject);
-            }
-
+            //}else{
+              //Destroy(gameObject);
+            //}
         }
 
     }
@@ -70,11 +69,11 @@ public class Saude : MonoBehaviour{
         vida = 0;
         morto = true;
         animator.SetTrigger("Morte");
-        if (gameObject.tag == "Player"){
+        //if (gameObject.tag == "Player"){
             StartCoroutine(morre());
-        }else{
-          Destroy(gameObject);
-        }
+        //}else{
+          //Destroy(gameObject);
+        //}
 
     }
 

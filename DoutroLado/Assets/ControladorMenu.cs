@@ -45,8 +45,7 @@ public class ControladorMenu : MonoBehaviour{
   */
 
   public void Sair(){
-    Debug.Log("Saindo do jogo");
-    //Application.Quit();
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
   }
 
 }

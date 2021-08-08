@@ -8,7 +8,7 @@ public class Inimigo : MonoBehaviour{
   [SerializeField]
   private int vida = 2;
 
-  public void TomaDano(int dano){
+  public void tomaDano(int dano){
 
     vida -= dano;
 
@@ -16,6 +16,19 @@ public class Inimigo : MonoBehaviour{
       Destroy(gameObject);
     }
 
+  }
+
+  void OnTriggerEnter2D(Collider2D outroObjeto){
+    if(outroObjeto.gameObject.tag.Equals("Player")){
+
+      //Debug.Log(outroObjeto.transform.name);
+      Saude playerSaude = outroObjeto.GetComponent<Saude>();
+      if(playerSaude != null){
+        Debug.Log("TOMANDO DANO");
+        //playerSaude.tomaDano(dano);
+      }
+
+    }
   }
 
 }
