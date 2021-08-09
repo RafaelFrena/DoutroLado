@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class ZonaMorte : MonoBehaviour
 {
-    void OnCollisionEnter2D(Collision2D other)
+    void OnCollisionEnter2D(Collision2D outroObjeto)
     {
-        if (other.gameObject.tag == "Player")
+        if (outroObjeto.gameObject.tag.Equals("Player"))
         {
-            other.gameObject.GetComponent<Saude>().danoMax();
+            outroObjeto.gameObject.GetComponent<Saude>().danoMax();
         }
         else
         {
-            Object.Destroy(other.gameObject);
+            Object.Destroy(outroObjeto.gameObject);
         }
     }
 
