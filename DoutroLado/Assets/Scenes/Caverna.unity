@@ -388,6 +388,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
   m_PrefabInstance: {fileID: 42494151}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &81008065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.96875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.312501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &81008066 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 81008065}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &82171970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1339,6 +1401,68 @@ Transform:
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &244828822
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.46875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.8125005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &244828823 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 244828822}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &258324783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2290,6 +2414,68 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &545457874
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.96875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.812501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &545457875 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 545457874}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &569254660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2785,6 +2971,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
   m_PrefabInstance: {fileID: 681272634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &689993249
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.46875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.3125005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &689993250 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 689993249}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &732868665
 GameObject:
@@ -3385,6 +3633,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
   m_PrefabInstance: {fileID: 915281179}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &917748235
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.46875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.812501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &917748236 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 917748235}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &944858932
 GameObject:
   m_ObjectHideFlags: 0
@@ -3431,6 +3741,130 @@ MonoBehaviour:
   nomeText: {fileID: 1454418740}
   dialogoText: {fileID: 1638820596}
   animator: {fileID: 1795737577}
+--- !u!1001 &953472316
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.46875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &953472317 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 953472316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &983396210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.96875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.312501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &983396211 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 983396210}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &992515037
 GameObject:
   m_ObjectHideFlags: 0
@@ -3570,6 +4004,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
   m_PrefabInstance: {fileID: 994450351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1026347856
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.96875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.812501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &1026347857 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 1026347856}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1033137807
 PrefabInstance:
@@ -3819,6 +4315,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
   m_PrefabInstance: {fileID: 1075164921}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1080543784
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 83
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.46875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.8124998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &1080543785 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 1080543784}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1083209897
 GameObject:
   m_ObjectHideFlags: 0
@@ -3993,6 +4551,22 @@ Transform:
   - {fileID: 504247457}
   - {fileID: 1891478355}
   - {fileID: 590643626}
+  - {fileID: 689993250}
+  - {fileID: 81008066}
+  - {fileID: 1427145675}
+  - {fileID: 983396211}
+  - {fileID: 244828823}
+  - {fileID: 545457875}
+  - {fileID: 917748236}
+  - {fileID: 1026347857}
+  - {fileID: 1938133653}
+  - {fileID: 1690523660}
+  - {fileID: 1535596907}
+  - {fileID: 1644282164}
+  - {fileID: 1302717121}
+  - {fileID: 953472317}
+  - {fileID: 1862760296}
+  - {fileID: 1080543785}
   m_Father: {fileID: 1825637063}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4653,6 +5227,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
   m_PrefabInstance: {fileID: 1273135597}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1302717120
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.96875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &1302717121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 1302717120}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1313242371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5072,6 +5708,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424282907}
   m_CullTransparentMesh: 1
+--- !u!1001 &1427145674
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.46875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.312501
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &1427145675 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 1427145674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1447180639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5736,6 +6434,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
   m_PrefabInstance: {fileID: 1533242508}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1535596906
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.46875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &1535596907 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 1535596906}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1558676306
 GameObject:
   m_ObjectHideFlags: 0
@@ -6043,6 +6803,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638820594}
   m_CullTransparentMesh: 1
+--- !u!1001 &1644282163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.96875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &1644282164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 1644282163}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1655451845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6104,6 +6926,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
   m_PrefabInstance: {fileID: 1655451845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1690523659
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 77
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.96875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &1690523660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 1690523659}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1701765867
 GameObject:
@@ -7283,6 +8167,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852932336}
   m_CullTransparentMesh: 1
+--- !u!1001 &1862760295
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.96875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &1862760296 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 1862760295}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1876877551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7468,6 +8414,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
   m_PrefabInstance: {fileID: 1914479015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1938133652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1103069793}
+    m_Modifications:
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_RootOrder
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.46875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6974540663494025177, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+      propertyPath: m_Name
+      value: tileset pedra dolor (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+--- !u!4 &1938133653 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031265286729026558, guid: c78173aa3e4ae9c438df2c7fc84d2d64, type: 3}
+  m_PrefabInstance: {fileID: 1938133652}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1970785247
 GameObject:
