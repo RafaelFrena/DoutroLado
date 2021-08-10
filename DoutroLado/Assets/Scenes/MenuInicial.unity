@@ -941,7 +941,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -1262,7 +1262,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -1462,8 +1462,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1541,7 +1541,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -1620,7 +1620,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -1699,7 +1699,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -1711,7 +1711,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OPCOES
+  m_Text: "OP\xC7\xD5ES"
 --- !u!222 &1353567633
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1778,7 +1778,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -1790,7 +1790,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OPCOES
+  m_Text: "OP\xC7\xD5ES"
 --- !u!222 &1362812463
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1857,8 +1857,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1869,7 +1869,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OPCOES
+  m_Text: "OP\xC7\xD5ES"
 --- !u!222 &1369347998
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1914,8 +1914,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 152.5, y: 65.5}
-  m_SizeDelta: {x: 200, y: 45}
+  m_AnchoredPosition: {x: 152.5, y: 59}
+  m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370646045
 MonoBehaviour:
@@ -2081,7 +2081,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -2160,8 +2160,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2172,7 +2172,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CREDITOS
+  m_Text: "CR\xC9DITOS"
 --- !u!222 &1409113852
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2278,7 +2278,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -2643,7 +2643,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 152.5, y: -70.5}
-  m_SizeDelta: {x: 200, y: 45}
+  m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1844024734
 MonoBehaviour:
@@ -2775,8 +2775,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 152.5, y: -4.5}
-  m_SizeDelta: {x: 200, y: 45}
+  m_AnchoredPosition: {x: 152.5, y: -7}
+  m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1858706923
 MonoBehaviour:
@@ -2942,8 +2942,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 081565238cdf7cd46879a543d74c4274, type: 3}
-    m_FontSize: 20
+    m_Font: {fileID: 12800000, guid: 8f407943f6ae1464cb9572fba0d62ed3, type: 3}
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3099,8 +3099,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 152.5, y: 134.5}
-  m_SizeDelta: {x: 200, y: 45}
+  m_AnchoredPosition: {x: 152.5, y: 122}
+  m_SizeDelta: {x: 180, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2113308799
 MonoBehaviour:
