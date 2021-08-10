@@ -45,7 +45,7 @@ public class ControladorMenu : MonoBehaviour{
   */
 
   public void Sair(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    SceneManager.LoadScene("MenuInicial");
   }
 
 }
