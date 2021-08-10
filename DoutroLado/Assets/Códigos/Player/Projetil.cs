@@ -12,7 +12,7 @@ public class Projetil : MonoBehaviour{
     void Start(){
 
         corpo.velocity = transform.right*velocidade;
-
+        StartCoroutine(destroy());
     }
 
     void OnTriggerEnter2D(Collider2D outroObjeto){
@@ -22,17 +22,17 @@ public class Projetil : MonoBehaviour{
         Inimigo inimigo = outroObjeto.GetComponent<Inimigo>();
         if(inimigo != null){
           inimigo.tomaDano(dano);
+          Destroy(gameObject);
         }
 
       }
-      /*
-      else if(hitInfo.gameObject.tag.Equals("Player")){
-        Player player = hitInfo.GetComponent<Player>();
-        if(player != null){
-          player.TomaDano(dano);
-        }
-      }
-      */
+
+    }
+
+    IEnumerator destroy(){
+
+        yield return new WaitForSeconds(2f);
+        Destroy(gameObject);
 
     }
 

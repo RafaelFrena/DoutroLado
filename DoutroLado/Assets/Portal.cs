@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour{
 
-      void OnCollisionEnter2D(Collision2D outroObjeto){
+      void OnTriggerEnter2D(Collider2D outroObjeto){
 
         if(outroObjeto.gameObject.tag.Equals("Player")){
 

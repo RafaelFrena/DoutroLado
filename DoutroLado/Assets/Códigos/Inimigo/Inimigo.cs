@@ -25,7 +25,7 @@ public class Inimigo : MonoBehaviour{
       Saude playerSaude = outroObjeto.GetComponent<Saude>();
       if(playerSaude != null){
         Debug.Log("TOMANDO DANO");
-        //playerSaude.tomaDano(dano);
+        playerSaude.tomaDano(1);
       }
 
     }
