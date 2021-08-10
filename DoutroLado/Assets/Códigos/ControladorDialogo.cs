@@ -23,6 +23,12 @@ public class ControladorDialogo : MonoBehaviour{
 
       }
 
+      if(Input.GetKeyDown(KeyCode.Z)){
+
+        TerminarDialogo();
+
+      }
+
     }
 
     public void IniciarDialogo(Dialogo dialogo){

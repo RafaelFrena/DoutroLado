@@ -10,7 +10,6 @@ public class Portal : MonoBehaviour{
     // Update is called once per frame
     void Update(){
 
-      Debug.Log("UPDATE");
       void OnCollisionEnter2D(Collision2D outroObjeto){
 
         Debug.Log("ALGO ENTROU NO PORTAL");

@@ -30,26 +30,46 @@ public class Movimentação : MonoBehaviour{
     void Update(){
 
       if(podeSeMover==true){
-        //MOVIMENTAÇÃO HORIZONTAL
-        sentido = Input.GetAxis("Horizontal");
-        noChao = Physics2D.Linecast(transform.position, detectorChao.position, chao);
-        animator.SetBool("noChao", noChao);
 
-        corpo.velocity = new Vector2(sentido*velocidade, corpo.velocity.y);
-        animator.SetFloat("Velocidade", Mathf.Abs(sentido)); //animar ariel-anda
+        Anda();
+        Pula();
 
-        //MOVIMENTAÇÃO
-        if(Input.GetButtonDown("Jump") && noChao){
-          corpo.velocity = Vector2.up*forcapulo;
-          animator.SetBool("Pulando", true); //animar ariel-pula
-        } else if(Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S) && noChao==false){
-          corpo.velocity = Vector2.down*fastfall;
-          animator.SetBool("Pulando", false); //fastfall
-        }
+      }else{
 
-        if(noChao && animator.GetBool("Pulando")){
-          animator.SetBool("Pulando", false);
-        }
+        corpo.velocity = new Vector2(0, corpo.velocity.y);
+        animator.SetFloat("Velocidade", 0f);
+        animator.SetBool("Pulando", false);
+        animator.SetBool("noChao", true);
+
+      }
+
+    }
+
+    private void Anda(){
+
+      //MOVIMENTAÇÃO HORIZONTAL
+      sentido = Input.GetAxis("Horizontal");
+      noChao = Physics2D.Linecast(transform.position, detectorChao.position, chao);
+      animator.SetBool("noChao", noChao);
+
+      corpo.velocity = new Vector2(sentido*velocidade, corpo.velocity.y);
+      animator.SetFloat("Velocidade", Mathf.Abs(sentido)); //animar ariel-anda
+
+    }
+
+    private void Pula(){
+
+      //MOVIMENTAÇÃO VERTICAL
+      if(Input.GetButtonDown("Jump") && noChao){
+        corpo.velocity = Vector2.up*forcapulo;
+        animator.SetBool("Pulando", true); //animar ariel-pula
+      } else if(Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S) && noChao==false){
+        corpo.velocity = Vector2.down*fastfall;
+        animator.SetBool("Pulando", false); //fastfall
+      }
+
+      if(noChao && animator.GetBool("Pulando")){
+        animator.SetBool("Pulando", false);
       }
 
     }
