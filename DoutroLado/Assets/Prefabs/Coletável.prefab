@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7417743536044287101}
   - component: {fileID: 7417743536044287098}
   m_Layer: 0
-  m_Name: "Colet\xE1vel"
+  m_Name: "colet\xE1vel"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
