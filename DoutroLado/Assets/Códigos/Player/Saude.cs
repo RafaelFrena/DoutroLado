@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class Saude : MonoBehaviour{
 
+    public Transform localNascimento;
+    private Transform transformAriel;
 
     public int vida = 5;
     public int numCoracoes;
@@ -26,6 +28,20 @@ public class Saude : MonoBehaviour{
     }
 
     void Update(){
+
+      atualizaCoracoes();
+
+      void OnTriggerEnter2D(Collider2D outroObjeto){
+        Debug.Log("PASSEI POR UM CHECKPOINT!");
+        if(outroObjeto.gameObject.tag.Equals("Checkpoint")){
+          Debug.Log("E EU SOU A ARIEL!");
+          localNascimento.position = outroObjeto.transform.position;
+        }
+      }
+
+    }
+
+    void atualizaCoracoes(){
 
       if (vida > numCoracoes){
         vida = numCoracoes;
@@ -82,7 +98,10 @@ public class Saude : MonoBehaviour{
 
         yield return new WaitForSeconds(1f);
         //depois mudar isso pra ir pra telinha de gameover ou algo do tipo
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        transformAriel = gameObject.GetComponent<Transform>();
+        transformAriel = localNascimento;
 
     }
+
 }
