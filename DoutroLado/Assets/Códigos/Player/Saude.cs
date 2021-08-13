@@ -18,6 +18,7 @@ public class Saude : MonoBehaviour{
 
     public bool morto;
     private Animator animator;
+    private ControladorRespawn cr;
 
     // Start is called before the first frame update
     void Start(){
@@ -31,14 +32,6 @@ public class Saude : MonoBehaviour{
 
       atualizaCoracoes();
 
-      void OnTriggerEnter2D(Collider2D outroObjeto){
-        Debug.Log("PASSEI POR UM CHECKPOINT!");
-        if(outroObjeto.gameObject.tag.Equals("Checkpoint")){
-          Debug.Log("E EU SOU A ARIEL!");
-          localNascimento.position = outroObjeto.transform.position;
-        }
-      }
-
     }
 
     void atualizaCoracoes(){
@@ -47,7 +40,7 @@ public class Saude : MonoBehaviour{
         vida = numCoracoes;
       }
 
-      for (int i=0; i<coracoes.Length; i++) {
+      for (int i=0; i<coracoes.Length; i++){
 
         if(i < vida){
           coracoes[i].sprite = coracao;
@@ -68,14 +61,9 @@ public class Saude : MonoBehaviour{
 
         vida -= dano;
         if (vida <= 0){
-            morto = true;
-            animator.SetTrigger("Morte");
-
-            //if (gameObject.tag == "Player"){
-                StartCoroutine(morre());
-            //}else{
-              //Destroy(gameObject);
-            //}
+          morto = true;
+          animator.SetTrigger("Morte");
+          StartCoroutine(morre());
         }
 
     }
@@ -85,22 +73,17 @@ public class Saude : MonoBehaviour{
         vida = 0;
         morto = true;
         animator.SetTrigger("Morte");
-        //if (gameObject.tag == "Player"){
-            StartCoroutine(morre());
-        //}else{
-          //Destroy(gameObject);
-        //}
+        StartCoroutine(morre());
 
     }
 
     IEnumerator morre(){
 
-
         yield return new WaitForSeconds(1f);
-        //depois mudar isso pra ir pra telinha de gameover ou algo do tipo
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         transformAriel = gameObject.GetComponent<Transform>();
-        transformAriel = localNascimento;
+        cr = GameObject.FindGameObjectWithTag("Checkpoint").GetComponent<ControladorRespawn>();
+        transformAriel.position = cr.ultimoCheckpoint;
 
     }
 

@@ -15,22 +15,6 @@ public class Ataque : MonoBehaviour{
     animator = gameObject.GetComponent<Animator>();
   }
 
-  /*void OnTriggerEnter2D(Collider2D collision){
-
-    if(collision.gameObject.tag.Equals("Player")){
-        return;
-    }
-
-    if(collision.gameObject.tag.Equals("Inimigo")){
-      Destroy(gameObject);
-      //var inimigoObj = collision.GetComponent<Inimigo>();
-      //inimigoObj.TomaDano(dano);
-    }
-
-    //Destroy(gameObject);
-
-  }*/
-
   void Update(){
 
     if(Input.GetButtonDown("Fire1")){

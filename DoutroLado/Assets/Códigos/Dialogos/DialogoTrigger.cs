@@ -11,7 +11,7 @@ public class DialogoTrigger : MonoBehaviour{
 
   void OnTriggerStay2D(Collider2D outroObjeto){
     if(outroObjeto.gameObject.tag.Equals("Player")){
-      if(Input.GetKeyDown(KeyCode.X) || dialogoAuto == true){
+      if((Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.K) || Input.GetButtonDown("Submit")) || dialogoAuto == true){
 
         Movimentação movimentação = outroObjeto.GetComponent<Movimentação>();
         movimentação.podeSeMover = false;

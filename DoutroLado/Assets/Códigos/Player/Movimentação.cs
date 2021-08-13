@@ -60,7 +60,7 @@ public class Movimentação : MonoBehaviour{
     private void Pula(){
 
       //MOVIMENTAÇÃO VERTICAL
-      if(Input.GetButtonDown("Jump") && noChao){
+      if((Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.Space)) && noChao){
         corpo.velocity = Vector2.up*forcapulo;
         animator.SetBool("Pulando", true); //animar ariel-pula
       } else if(Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S) && noChao==false){
