@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 8828676489665808585}
-  velocidade: 2
+  velocidade: 2.5
   distancialimite: 1.5
   andando: 0
 --- !u!114 &4279555354673927152

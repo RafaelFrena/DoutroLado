@@ -6,7 +6,6 @@ public class DialogoTrigger : MonoBehaviour{
 
   [SerializeField]
   private bool dialogoAuto=false;
-  private bool primeiraVez=true;
   public Dialogo dialogo;
 
 
