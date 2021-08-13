@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuInicial : MonoBehaviour{
 
   public void Jogar(){
-    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    SceneManager.LoadScene("CutsceneInicial");
     Time.timeScale = 1f;
   }
 
