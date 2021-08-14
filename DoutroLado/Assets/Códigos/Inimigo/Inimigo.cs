@@ -24,7 +24,6 @@ public class Inimigo : MonoBehaviour{
       //Debug.Log(outroObjeto.transform.name);
       Saude playerSaude = outroObjeto.GetComponent<Saude>();
       if(playerSaude != null){
-        Debug.Log("TOMANDO DANO");
         playerSaude.tomaDano(1);
       }
 

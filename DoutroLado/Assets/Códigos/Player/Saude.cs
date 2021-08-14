@@ -62,7 +62,7 @@ public class Saude : MonoBehaviour{
         vida -= dano;
         if (vida <= 0){
           morto = true;
-          animator.SetTrigger("Morte");
+          animator.SetBool("Morto", true);
           StartCoroutine(morre());
         }
 
@@ -72,7 +72,7 @@ public class Saude : MonoBehaviour{
 
         vida = 0;
         morto = true;
-        animator.SetTrigger("Morte");
+        animator.SetBool("Morto", true);
         StartCoroutine(morre());
 
     }
@@ -84,6 +84,9 @@ public class Saude : MonoBehaviour{
         transformAriel = gameObject.GetComponent<Transform>();
         cr = GameObject.FindGameObjectWithTag("Checkpoint").GetComponent<ControladorRespawn>();
         transformAriel.position = cr.ultimoCheckpoint;
+        vida=5;
+        morto = false;
+        animator.SetBool("Morto", false);
 
     }
 
