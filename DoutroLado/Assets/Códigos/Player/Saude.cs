@@ -16,14 +16,14 @@ public class Saude : MonoBehaviour{
     public Sprite coracao;
     public Sprite coracaovazio;
 
-    public bool morto;
+    //public bool morto;
     private Animator animator;
-    private ControladorRespawn cr;
+    private ControladorRespawn controladorRespawn;
 
     // Start is called before the first frame update
     void Start(){
 
-        morto = false;
+        //morto = false;
         animator = gameObject.GetComponent<Animator>();
 
     }
@@ -61,7 +61,7 @@ public class Saude : MonoBehaviour{
 
         vida -= dano;
         if (vida <= 0){
-          morto = true;
+          //morto = true;
           animator.SetBool("Morto", true);
           StartCoroutine(morre());
         }
@@ -71,7 +71,7 @@ public class Saude : MonoBehaviour{
     public void danoMax(){
 
         vida = 0;
-        morto = true;
+        //morto = true;
         animator.SetBool("Morto", true);
         StartCoroutine(morre());
 
@@ -79,15 +79,22 @@ public class Saude : MonoBehaviour{
 
     IEnumerator morre(){
 
-        yield return new WaitForSeconds(1f);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //BLOQUEIA MOVIMENTAÇÃO
+        Movimentação movimentação = gameObject.GetComponent<Movimentação>();
+        movimentação.podeSeMover = false;
+        //ESPERA UM DETERMINADO TEMPO
+        yield return new WaitForSeconds(1.5f);
+        //VOLTA PRO CHECKPOINT
         transformAriel = gameObject.GetComponent<Transform>();
-        cr = GameObject.FindGameObjectWithTag("Checkpoint").GetComponent<ControladorRespawn>();
-        transformAriel.position = cr.ultimoCheckpoint;
+        controladorRespawn = GameObject.FindGameObjectWithTag("Checkpoint").GetComponent<ControladorRespawn>();
+        transformAriel.position = controladorRespawn.ultimoCheckpoint;
+        //RESETA A VIDA
         vida=5;
-        morto = false;
+        //DESLIGA ANIMAÇÕES E DEMAIS BOOLEANS
+        //morto = false;
         animator.SetBool("Morto", false);
-
+        //LIBERA MOVIMENTAÇÃO
+        movimentação.podeSeMover = true;
     }
 
 }

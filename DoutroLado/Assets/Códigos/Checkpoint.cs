@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour{
 
-    private ControladorRespawn cr;
+    private ControladorRespawn controladorRespawn;
 
     // Start is called before the first frame update
     void Start(){
 
-      cr = GameObject.FindGameObjectWithTag("Checkpoint").GetComponent<ControladorRespawn>();
+      controladorRespawn = GameObject.FindGameObjectWithTag("Checkpoint").GetComponent<ControladorRespawn>();
 
     }
 
     void OnTriggerEnter2D(Collider2D outroObjeto){
       if(outroObjeto.gameObject.tag.Equals("Player")){
-        cr.ultimoCheckpoint = transform.position;
+        controladorRespawn.ultimoCheckpoint = transform.position;
       }
     }
 }

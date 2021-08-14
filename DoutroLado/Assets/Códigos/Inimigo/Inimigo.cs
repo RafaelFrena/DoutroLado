@@ -6,14 +6,20 @@ using UnityEngine;
 public class Inimigo : MonoBehaviour{
 
   [SerializeField]
-  private int vida = 2;
+  private int vida = 3;
+  public Animator animator;
+
+  void Start(){
+    animator = gameObject.GetComponent<Animator>();
+  }
 
   public void tomaDano(int dano){
 
     vida -= dano;
 
     if(vida <= 0){
-      Destroy(gameObject);
+      animator.SetTrigger("Morte");
+      StartCoroutine(morre());
     }
 
   }
@@ -28,6 +34,13 @@ public class Inimigo : MonoBehaviour{
       }
 
     }
+  }
+
+  IEnumerator morre(){
+
+      yield return new WaitForSeconds(1f);
+      Destroy(gameObject);
+
   }
 
 }
