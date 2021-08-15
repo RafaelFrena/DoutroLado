@@ -9,6 +9,7 @@ public class ControladorPontuacao : MonoBehaviour{
     public Text texto;
     public int espelhosAcumulados;
     public int espelhosNecessarios=20;
+    //public int pontuacaoTotal;
 
     // Start is called before the first frame update
     void Start(){
@@ -16,17 +17,25 @@ public class ControladorPontuacao : MonoBehaviour{
       if(instance == null){
         instance = this;
       }
+      espelhosNecessarios=20;
+      //Debug.Log(PlayerPrefs.GetInt("pontuacao"));
+      espelhosAcumulados = PlayerPrefs.GetInt("pontuacao");
+      texto.text = espelhosAcumulados.ToString();
 
     }
 
-    public void AtualizaPontuacao(int valorObjeto){
-      espelhosAcumulados += valorObjeto;
-      texto.text = espelhosAcumulados.ToString();
-      if(espelhosAcumulados >= espelhosNecessarios){
+    public void AtualizaPontuacao(){
 
-        GameObject outroObjeto = GameObject.FindGameObjectWithTag("EspelhoFinal");
-        EspelhoFinal espelhoFinal = outroObjeto.GetComponent<EspelhoFinal>();
-        espelhoFinal.jogoZerado = true;
+      espelhosAcumulados++;
+      PlayerPrefs.SetInt("pontuacao", espelhosAcumulados);
+      texto.text = espelhosAcumulados.ToString();
+
+      if(espelhosAcumulados >= espelhosNecessarios){
+        Debug.Log("TENHO 20 OU MAIS ESPELHOS");
+
+        GameObject outroObjeto = GameObject.FindGameObjectWithTag("PortalDeVolta");
+        PortalDeVolta portalDeVolta = outroObjeto.GetComponent<PortalDeVolta>();
+        portalDeVolta.ganhouJogo = true;
 
       }
     }

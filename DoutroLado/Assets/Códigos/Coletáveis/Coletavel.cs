@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Coletavel : MonoBehaviour{
 
-  public int valorObjeto = 1;
+  //public int valorObjeto = 1;
   void OnTriggerEnter2D(Collider2D outroObjeto){
     if(outroObjeto.gameObject.CompareTag("Player")){
-      ControladorPontuacao.instance.AtualizaPontuacao(valorObjeto);
+      ControladorPontuacao.instance.AtualizaPontuacao();
       Destroy(gameObject);
     }
   }

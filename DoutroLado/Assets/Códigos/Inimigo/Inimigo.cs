@@ -19,7 +19,8 @@ public class Inimigo : MonoBehaviour{
 
     if(vida <= 0){
       animator.SetTrigger("Morte");
-      StartCoroutine(morre());
+      Destroy(gameObject);
+      //StartCoroutine(morre());
     }
 
   }
@@ -31,16 +32,17 @@ public class Inimigo : MonoBehaviour{
       Saude playerSaude = outroObjeto.GetComponent<Saude>();
       if(playerSaude != null){
         playerSaude.tomaDano(1);
+        Destroy(gameObject);
       }
 
     }
   }
 
-  IEnumerator morre(){
+  /*IEnumerator morre(){
 
       yield return new WaitForSeconds(1f);
       Destroy(gameObject);
 
-  }
+  }*/
 
 }

@@ -12,9 +12,8 @@ public class Portal : MonoBehaviour{
           if(SceneManager.GetActiveScene().buildIndex == 2){
             SceneManager.LoadScene("Caverna");
           }else if(SceneManager.GetActiveScene().buildIndex == 3){
-            SceneManager.LoadScene("FaseInicial");
+            SceneManager.LoadScene("FaseFinal");
           }
-
 
         }
 

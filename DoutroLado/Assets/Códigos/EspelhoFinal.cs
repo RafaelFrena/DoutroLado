@@ -16,12 +16,14 @@ public class EspelhoFinal : MonoBehaviour{
         Movimentação movimentação = outroObjeto.GetComponent<Movimentação>();
         movimentação.podeSeMover = false;
 
+        Debug.Log("GANHEI O JOGO!");
+        /*
         if(jogoZerado==true){
           //Fazer série de eventinhos bacanas pra finalizar o jogo
           Debug.Log("GANHEI O JOGO!");
         }else if(jogoZerado==false){
           ComecarDialogo();
-        }
+        }*/
 
       }
     }

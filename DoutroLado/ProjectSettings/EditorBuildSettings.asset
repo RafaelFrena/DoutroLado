@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Caverna.unity
     guid: 743da48e55abcf242ba6bf1316f082e0
+  - enabled: 1
+    path: Assets/Scenes/FaseFinal.unity
+    guid: 51f9effba835bfa449c28d98ec5b2754
   m_configObjects: {}

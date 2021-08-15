@@ -13,7 +13,7 @@ public class MovePlataforma : MonoBehaviour
 
     public bool loop = true;
 
-    public Transform transform;
+    private Transform transform;
     int i = 0;
     float proxTempo;
     bool seMovendo = true;
