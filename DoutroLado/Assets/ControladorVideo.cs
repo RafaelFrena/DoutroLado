@@ -26,19 +26,29 @@ public class ControladorVideo : MonoBehaviour{
         SceneManager.LoadScene("FaseInicial");
       }
 
-      if(Input.GetKeyDown(KeyCode.Space)){
-        if(estaPausado){
-          ContinuarVideo();
-        }else{
-          PausarVideo();
-        }
+      if(Input.GetKeyDown(KeyCode.Return)){
+
+        TerminaVideo();
+
       }
 
-
+      if(Input.GetKeyDown(KeyCode.Space)){
+        ControlaVideo();
+      }
 
     }
 
-    public void ContinuarVideo(){
+    public void ControlaVideo(){
+
+      if(estaPausado){
+        ContinuarVideo();
+      }else{
+        PausarVideo();
+      }
+
+    }
+
+    void ContinuarVideo(){
 
       video.Play();
       estaPausado = false;
@@ -52,7 +62,7 @@ public class ControladorVideo : MonoBehaviour{
 
     }
 
-    void TerminaVideo(){
+    public void TerminaVideo(){
       Debug.Log("INDO PRO JOGO");
       SceneManager.LoadScene("FaseInicial");
     }

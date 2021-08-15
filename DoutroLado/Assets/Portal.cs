@@ -9,7 +9,12 @@ public class Portal : MonoBehaviour{
 
         if(outroObjeto.gameObject.tag.Equals("Player")){
 
-          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+          if(SceneManager.GetActiveScene().buildIndex == 2){
+            SceneManager.LoadScene("Caverna");
+          }else if(SceneManager.GetActiveScene().buildIndex == 3){
+            SceneManager.LoadScene("FaseInicial");
+          }
+
 
         }
 
