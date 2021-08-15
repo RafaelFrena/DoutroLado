@@ -11,7 +11,7 @@ public class ControladorMenu : MonoBehaviour{
   // Update is called once per frame
   void Update(){
 
-    if(Input.GetKeyDown(KeyCode.P)){
+    if(Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape)){
       if(estaPausado){
         Continuar();
       }else{
@@ -36,13 +36,6 @@ public class ControladorMenu : MonoBehaviour{
     estaPausado = true;
 
   }
-
-  /*
-  public void AbrirMenu(){
-    Time.timeScale = 1f;
-    SceneManagement.LoadScene("Menu");
-  }
-  */
 
   public void Sair(){
     SceneManager.LoadScene("MenuInicial");
