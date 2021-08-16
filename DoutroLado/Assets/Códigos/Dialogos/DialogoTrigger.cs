@@ -15,12 +15,36 @@ public class DialogoTrigger : MonoBehaviour{
 
         Movimentação movimentação = outroObjeto.GetComponent<Movimentação>();
         movimentação.podeSeMover = false;
+
+        TravaRumpitur();
+
         ComecarDialogo();
         dialogoAuto=false;
 
       }
 
     }
+  }
+
+  void OnTriggerExit2D(Collider2D outroObjeto){
+    if(outroObjeto.gameObject.tag.Equals("Player")){
+      TravaRumpitur();
+    }
+  }
+
+  void TravaRumpitur(){
+
+    GameObject rumpitur = GameObject.FindGameObjectWithTag("Inimigo");
+    SeguirPlayer seguirPlayer = rumpitur.GetComponent<SeguirPlayer>();
+
+
+    if(seguirPlayer.rumpiturPodeSeMover == true){
+      seguirPlayer.rumpiturPodeSeMover = false;
+    }else{
+      seguirPlayer.rumpiturPodeSeMover = true;
+    }
+
+
   }
 
   public void ComecarDialogo(){

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FaseFinal.unity
     guid: 51f9effba835bfa449c28d98ec5b2754
+  - enabled: 1
+    path: Assets/Scenes/CutsceneFinal.unity
+    guid: 743e3f45574f62b4baf71faecb44a176
   m_configObjects: {}

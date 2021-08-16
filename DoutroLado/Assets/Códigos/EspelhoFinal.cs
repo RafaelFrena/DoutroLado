@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EspelhoFinal : MonoBehaviour{
 
@@ -16,7 +17,7 @@ public class EspelhoFinal : MonoBehaviour{
         Movimentação movimentação = outroObjeto.GetComponent<Movimentação>();
         movimentação.podeSeMover = false;
 
-        Debug.Log("GANHEI O JOGO!");
+        SceneManager.LoadScene("CutsceneFinal");
         /*
         if(jogoZerado==true){
           //Fazer série de eventinhos bacanas pra finalizar o jogo

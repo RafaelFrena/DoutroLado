@@ -21,9 +21,15 @@ public class ControladorVideo : MonoBehaviour{
     void Update(){
 
       tempoAtual = gameObject.GetComponent<VideoPlayer>().time;
+
       if(tempoAtual+.3f >= tempo){
-        //videoAcabou=true;
-        SceneManager.LoadScene("FaseInicial");
+
+        if(SceneManager.GetActiveScene().buildIndex == 5){
+          SceneManager.LoadScene("MenuInicial");
+        }else if(SceneManager.GetActiveScene().buildIndex == 1){
+          SceneManager.LoadScene("FaseInicial");
+        }
+
       }
 
       if(Input.GetKeyDown(KeyCode.Return)){
