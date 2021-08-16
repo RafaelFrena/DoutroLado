@@ -17,7 +17,11 @@ public class EspelhoFinal : MonoBehaviour{
         Movimentação movimentação = outroObjeto.GetComponent<Movimentação>();
         movimentação.podeSeMover = false;
 
-        SceneManager.LoadScene("CutsceneFinal");
+        if(SceneManager.GetActiveScene().buildIndex == 2){
+          ComecarDialogo();
+        }else if(SceneManager.GetActiveScene().buildIndex == 4){
+          SceneManager.LoadScene("CutsceneFinal");
+        }
         /*
         if(jogoZerado==true){
           //Fazer série de eventinhos bacanas pra finalizar o jogo

@@ -24,11 +24,7 @@ public class ControladorVideo : MonoBehaviour{
 
       if(tempoAtual+.3f >= tempo){
 
-        if(SceneManager.GetActiveScene().buildIndex == 5){
-          SceneManager.LoadScene("MenuInicial");
-        }else if(SceneManager.GetActiveScene().buildIndex == 1){
-          SceneManager.LoadScene("FaseInicial");
-        }
+        TerminaVideo();
 
       }
 
@@ -69,8 +65,13 @@ public class ControladorVideo : MonoBehaviour{
     }
 
     public void TerminaVideo(){
-      Debug.Log("INDO PRO JOGO");
-      SceneManager.LoadScene("FaseInicial");
+
+      if(SceneManager.GetActiveScene().buildIndex == 1){
+        SceneManager.LoadScene("FaseInicial");
+      }else if(SceneManager.GetActiveScene().buildIndex == 5){
+        SceneManager.LoadScene("MenuInicial");
+      }
+
     }
 
 }
